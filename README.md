@@ -1,11 +1,2 @@
-# App ARch
-
-# Routes
--  [/]                      Home 
--  [/singup]                Singin
--  [/singin]                Singin
--  [/singout]               Singout
--  [/user/tasks]            User is tasks (create, set completed , archive)
--  [/user/tasks/:id]        Edit a user task
--  [/user/records/active]   Currently active user tasks records
--  [/user/records/archive]  Archived user tasks records
+# A starter for Storybook on Next.js Project
+Tailwindcss & Vite as stories builder included, plus sample components.
