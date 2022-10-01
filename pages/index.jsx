@@ -15,7 +15,7 @@ export default function Home() {
                     <span className="p-2">&&</span>
                     <span>
                         <pre className="inline rounded-xl bg-cyan-500 p-2 text-white">
-                            Tailwindcss
+                            TailwindCSS
                         </pre>
                     </span>
                     <span className="p-2">&&</span>
