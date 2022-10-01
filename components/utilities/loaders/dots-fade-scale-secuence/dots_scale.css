@@ -1,0 +1,44 @@
+.dots-container {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    align-items: center;
+    justify-items: center;
+    gap: 4px;
+    max-width: max-content;
+    /* border: 1px solid salmon; */
+}
+
+.dot-scale {
+    background-color: var(--bg-color);
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+
+    /* animation */
+    /* --duration: 1.2s; */
+    /* --stager: 0.1s; */
+    --interval: calc(var(--duration) - var(--stager));
+    animation-name: fade;
+    animation-duration: var(--duration);
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-delay: calc(var(--interval) * var(--i));
+    will-change: opacity, scale;
+}
+
+/* --delay: calc((var(--i) * var(--duration)); */
+/* --interval: calc(var(--delay) - var(--stager)); */
+/* animation-delay: var(--interval); */
+
+@keyframes fade {
+    from {
+        opacity: 0;
+        scale: 0;
+    }
+
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}

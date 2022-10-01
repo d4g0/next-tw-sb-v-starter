@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities{
+    .frame {
+        @apply max-w-screen-lg px-[16px] lg:px-[24px] mx-auto ;
+    }
+    .logo_link{
+        content: '';
+        background-color: transparent;
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: -1rem;
+        right: -1rem;
+    
+    }
+}
