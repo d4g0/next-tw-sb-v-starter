@@ -9,6 +9,10 @@ export default {
     component: DotsFadeSecuence,
     // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
     argTypes: {
+        animate: {
+            control: "boolean",
+            description: "Animate or not",
+        },
         quantity: { control: "number", description: "The number of dots" },
         bg_color: {
             control: "color",
@@ -29,6 +33,7 @@ const Template: ComponentStory<typeof DotsFadeSecuence> = (args) => <DotsFadeSec
 
 export const Base = Template.bind({});
 Base.args = {
+    animate: true,
     quantity: 3,
     bg_color: "grey",
     duration: 1,

@@ -4,7 +4,7 @@ import { DotsFadeSecuence } from "../components/utilities/loaders/dots-fade-secu
 
 export default function Home() {
     return (
-        <div className="">
+        <div className="w-full min-h-screen grid place-items-center">
             <DotsFadeSecuence />
         </div>
     );
