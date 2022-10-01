@@ -1,6 +1,6 @@
 <!-- ![alt](file:///../presentation.png) -->
 <img href="../presentation.png"/>
 
-# A starter for Storybook on Next.js Project
+# A starter Next.js Projects with Storybook
 Tailwindcss & Vite as stories builder included, plus sample components.
 
